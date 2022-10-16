@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <uisted.h>
 /**
- * main-prints exactly "and that piece of art is useful"
- * - Doran Koepar, 2015-10-19",
- * followed by a new line, to the standard error
+ * main-prints to string
  *
+ * Description: Prints "and that piece of art is useful.." without puts
  * return: 1
  *
  */
