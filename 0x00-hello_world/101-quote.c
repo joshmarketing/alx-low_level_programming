@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main-prints to string
+ * main-Entry point
  *
  * Description: Prints "and that piece of art is useful.." without puts
- * return: 1
+ * Return: 1
  *
  */
 int main(void)
