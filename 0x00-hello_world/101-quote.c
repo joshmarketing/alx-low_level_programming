@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <uisted.h>
 /**
- * main - prints to string
+ * main-prints exactly "and that piece of art is useful"
+ * - Doran Koepar, 2015-10-19",
+ * followed by a new line, to the standard error
  *
- * Description: Prints "and that piece of art is useful.." without puts
  * return: 1
  *
  */
@@ -13,8 +15,8 @@ int main(void)
 	long fd = 1;
 	long syscall = 1;
 	long ret = 0;
-	__asm__ ("syscall"
 
+	__asm__("syscall"
 	: "=a" (ret)
 	: "a" (syscall),
 	"D" (fd),
