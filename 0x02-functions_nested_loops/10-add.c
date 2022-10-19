@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *add - add two integer number and return the value
